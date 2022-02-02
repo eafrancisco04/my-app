@@ -27,20 +27,22 @@ function Bio(){
 
             </section>
 
-            <section class ="school">
+            <section>
                 <h2>Education</h2>
-
-                <Article head="De La Salle University" subhead="Bachelor of Arts in International Studies, Major in European Studies" 
-                                descr="2013 - 2016"/>
-                <Article head="Humber College" subhead="Web Design and Development" descr="2022 - Present"/>
-
+                    <div class ="school">
+                        <Article head="De La Salle University" subhead="Bachelor of Arts in International Studies, Major in European Studies" 
+                                        descr="2013 - 2016"/>
+                        <Article head="Humber College" subhead="Web Design and Development" descr="2022 - Present"/>
+                    </div>
             </section>
 
-            <section class="work">
-                <Article head="Hinge Inquirer" subhead="Editorial Assistant" descr="Managed the contend and website of Multisport.ph."/>
-                <Article head="M Square Media" subhead="Conten Writer" descr="Create content for the digital marketing team, communications team, and operations team. Oversee and improve the website of the company's clients."/>
-                <Article head="Valher Media" subhead="Podmaster" descr="Manage a team to assist clients in building their brand and website for their podcasts."/>
-
+            <section>
+                <h2>Work</h2>
+                    <div class="work">
+                        <Article head="Hinge Inquirer" subhead="Editorial Assistant" descr="Managed the contend and website of Multisport.ph."/>
+                        <Article head="M Square Media" subhead="Conten Writer" descr="Create content for the digital marketing team, communications team, and operations team. Oversee and improve the website of the company's clients."/>
+                        <Article head="Valher Media" subhead="Podmaster" descr="Manage a team to assist clients in building their brand and website for their podcasts."/>
+                    </div>  
             </section>
             
             
