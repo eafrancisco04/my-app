@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    background-color: #dcf0f5;
+    /* background-image: linear-gradient( #f6f6f6, #613659); */
+    font-family: "Nunito", arial, sans-serif;
+
+    background-image: url("../img/beach-waves.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.menu {
+    padding: .5em;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+
+    background-color: rgba(187, 231, 254, .8);
+    position: fixed;
+    min-width: 100vw;
+    
+}
