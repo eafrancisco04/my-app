@@ -1,10 +1,11 @@
 import profilepic from '../img/profilepic.jpg'
+import Article from './Article'
 
 function Bio(){
     return(
     /*html here */
         <main>
-            <div class ="intro">
+            <section class ="intro">
                 <div>
                     <h2>Hi! I'm Elizabeth Francisco.</h2>
                     <h3>Welcome to my sample website.</h3>
@@ -15,16 +16,32 @@ function Bio(){
                 </div>
 
                 <img src={profilepic} alt="Elizabeth Profile" id="profile" />
-            </div>
+            </section>
 
-            <div class="about">
-                <h2> About Me</h2>
+            <section class="about">
+                <h2>About Me</h2>
                 <p>
                     I am a freelance writer and content manager from the Philippines. I have over 4 years of experience helping clients build their brand and growing the social media.
                     Part of my work also involved creating and handlnig their websites. It was through my work in digital marketing that I was introduced to the idea of pursuing web design.
                 </p>
 
-            </div>
+            </section>
+
+            <section class ="school">
+                <h2>Education</h2>
+
+                <Article head="De La Salle University" subhead="Bachelor of Arts in International Studies, Major in European Studies" 
+                                descr="2013 - 2016"/>
+                <Article head="Humber College" subhead="Web Design and Development" descr="2022 - Present"/>
+
+            </section>
+
+            <section class="work">
+                <Article head="Hinge Inquirer" subhead="Editorial Assistant" descr="Managed the contend and website of Multisport.ph."/>
+                <Article head="M Square Media" subhead="Conten Writer" descr="Create content for the digital marketing team, communications team, and operations team. Oversee and improve the website of the company's clients."/>
+                <Article head="Valher Media" subhead="Podmaster" descr="Manage a team to assist clients in building their brand and website for their podcasts."/>
+
+            </section>
             
             
         </main>
