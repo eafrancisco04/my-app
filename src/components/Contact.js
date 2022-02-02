@@ -2,16 +2,26 @@ function Contact(){
     return(
     /*html here */
         <main>
-            <div class ="bio">
+            <div>
                 <form id="form">   
-                    <h2>Contact Me</h2>
+                    <h2 CLASS="contact">Contact Me</h2>
 
-                    <input class="nameemail" type="text" placeholder="Your Name" id="name"></input>
-                    <input class="nameemail" type="email" placeholder="Your Email" id="Email"></input>
-                    <br/>
-                    <input class="message" type="" placeholder="Your message" id="message"></input>
-                    <br/>
-                    <button type="submit">Submit</button>
+                    <div class="name">
+                        <h4>Your Name</h4>
+                        <input type="text" placeholder="Your Name" id="name"></input>
+                    </div>
+
+                    <div class="email">
+                        <h4>Email</h4>
+                        <input class="email" type="email" placeholder="Your Email" id="email"></input>
+                    </div>
+
+                    <div class="details">
+                        <h4>Your Project</h4>
+                        <input class="message" type="text" placeholder="Tell me about your project here." id="message"></input>
+                    </div>
+
+                    <button type="submit" class="submit">Submit</button>
                  </form>  
                 
             </div>

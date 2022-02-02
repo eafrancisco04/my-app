@@ -40,7 +40,7 @@ body {
     margin: auto;
 }
 
-.intro, .about {
+section {
     background-color: #d4ecf8cc;
     background-image: linear-gradient(#9ed8f7, #FFAEBC);
     padding: 2em;
