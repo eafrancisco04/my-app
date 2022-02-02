@@ -31,3 +31,20 @@ body {
     flex-direction: column;
     justify-content: space-between;
   }
+
+  main {
+    min-height:100vh;
+    display: grid;
+    place-content: center;
+    margin: auto;
+}
+
+.bio {
+    background-color: rgba(212, 236, 248, 0.8);
+    padding: 1em;
+    max-width: 60%;
+    margin: auto;
+    border-radius: 25px;
+
+    font-size: 1.3em;
+}
