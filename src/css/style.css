@@ -1,18 +1,21 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    color: #282444;
+    color: #412846;
 }
 body {
     min-height: 100vh;
-    background-color: #dcf0f5;
-    /* background-image: linear-gradient( #f6f6f6, #613659); */
     font-family: "Nunito", arial, sans-serif;
 
-    background-image: url("../img/beach-waves.jpg");
+    /* background-image: url("../img/beach-waves.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    
+    background: radial-gradient(ellipse at top right, #302033, transparent),
+                radial-gradient(ellipse at bottom left, #302033, transparent);
+    background-color: #ff0762;
+
 }
 .menu {
     padding: .5em;
@@ -20,7 +23,7 @@ body {
     list-style-type: none;
     justify-content: space-around;
 
-    background-color: rgba(187, 231, 254, .8);
+    background-color: #E9D5EC;
     position: fixed;
     min-width: 100vw;
     
@@ -41,8 +44,8 @@ main {
 }
 
 section {
-    background-color: #d4ecf8cc;
-    background-image: linear-gradient(#9ed8f7, #FFAEBC);
+    background-color: #E9D5EC;
+    background-image: linear-gradient(#E9D5EC, #f796a6);
     padding: 2em;
     min-width: 70%;
     max-width: 70%;
@@ -54,7 +57,9 @@ section {
 
 .intro {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 5em;
 }
 
@@ -76,15 +81,17 @@ article {
 }
 
 #profile {
-    height: 350px;
+    max-height: 200px;
     margin: 1em;
     border-radius: 50px;
+
+    align-self: flex-end;
 }
 
 h2 {
     font-size: 2em;
     font-weight: 800;
-    background-color: #282444;
+    background-color: #412846;
     /* background-image: linear-gradient(90deg, #05ADFE, #06b993); */
     background-clip: text;
     color: transparent;
@@ -93,47 +100,37 @@ h2 {
   }
 
 form {
+    display: grid;	
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+    
     background-color: #d4ecf8cc;
-    background-image: linear-gradient(#9ed8f7, #FFAEBC);
+    background-image: linear-gradient(#E9D5EC, #FFAEBC);
     padding: 2em;
     max-width: 80%;
     margin: auto;
     border-radius: 50px;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-
+   
 }
 
-input {
+input, textarea {
     border: none;
-    border-radius: 25px;
+    border-radius: 20px;
     height: 40px;
     margin: 1rem 0;
     padding: 12px 25px;
     
-    box-shadow: inset -1px -5px 15px rgb(67, 110, 164, 0.6)
+    box-shadow: inset -1px -3px 10px rgba(165, 30, 79, 0.466);
 
 }
 .contact {
-    grid-column: 2 ;
+    color:#eeeeee;
 }
-.name {
-    grid-column: 1;
-    grid-row: 2;
-}
-.email {
-    grid-column: 2;
-  }
-.details {
-    grid-column: 1 / span 3;
-    grid-row: 3;
-}
+
 .message {
-    width: 70%;
-    height: 200px;
-}
+    grid-column: 1/3;
+} 
 
 .submit {
     background: #eeeeee;
@@ -141,8 +138,11 @@ input {
     border: none;
     height: 40px;
 
-    box-shadow: inset -30px -30px 50px rgba(255, 255, 255, 0.6), inset -1px -5px 5px rgba(13, 39, 80, .2);
+    box-shadow: inset -30px -30px 50px rgba(255, 255, 255, 0.6), inset -1px -5px 5px #ac2a5abd;
 
-    grid-row: 4;
+    grid-column: 1/3;
+
+    /* grid-row: 4;
+    grid-column: 1; */
 
 }
