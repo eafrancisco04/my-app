@@ -18,7 +18,7 @@ function Bio(){
                 <img src={profilepic} alt="Elizabeth Profile" id="profile" />
             </section>
 
-            <section class="about">
+            <section class="about" id="about">
                 <h2>About Me</h2>
                 <p>
                     I am a freelance writer and content manager from the Philippines. I have over 4 years of experience helping clients build their brand and growing the social media.
@@ -27,7 +27,7 @@ function Bio(){
 
             </section>
 
-            <section>
+            <section id="background">
                 <h2>Education</h2>
                     <div class ="school">
                         <Article head="De La Salle University" subhead="Bachelor of Arts in International Studies, Major in European Studies" 
