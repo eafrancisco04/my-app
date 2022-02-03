@@ -22,7 +22,8 @@ body {
     list-style-type: none;
     justify-content: space-around;
 
-    background-color: #dd3f79;
+    background-color: #251927;
+    color: #faf3fc;
     min-width: 100vw;
 
     font-size: 1.25em;
@@ -36,21 +37,17 @@ a {
 }
 
 nav a {
-    color: #f5f5f5;
+    color: #E9D5EC;
     text-decoration: none;
     
   }
   
-  nav a:is(:hover, :focus-visible) {
-    background-color: #ffe4c4;
+nav a:is(:hover, :focus-visible) {
+    background-color: #ff9fc2;
     outline: 0;
+    color: #302033;
   }
 
-a:hover {
-    background-color: #AC2A59;
-    color: #ffe4c4;
-    
-  }
 #root {
     min-height: 100vh;
     display: flex;
