@@ -91,58 +91,52 @@ article {
 h2 {
     font-size: 2em;
     font-weight: 800;
-    background-color: #412846;
-    /* background-image: linear-gradient(90deg, #05ADFE, #06b993); */
+    color: #412846;
+    /* background-color: #412846;
+    /* background-image: linear-gradient(90deg, #05ADFE, #06b993); 
     background-clip: text;
-    color: transparent;
+    color: transparent; */
 
-    display: inline-flex;
   }
 
 form {
-    display: grid;	
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 20px;
+    display: flex;
+    flex-direction: column;
     
     background-color: #d4ecf8cc;
     background-image: linear-gradient(#E9D5EC, #FFAEBC);
     padding: 2em;
-    max-width: 80%;
+    min-width: 400px;
+    max-width: 400px;
     margin: auto;
     border-radius: 50px;
-
-   
 }
 
 input, textarea {
     border: none;
     border-radius: 20px;
     height: 40px;
+    width: 100%;
     margin: 1rem 0;
     padding: 12px 25px;
+    font-family: "Nunico", Arial, Helvetica, sans-serif;
     
     box-shadow: inset -1px -3px 10px rgba(165, 30, 79, 0.466);
 
 }
-.contact {
-    color:#eeeeee;
-}
-
-.message {
-    grid-column: 1/3;
-} 
 
 .submit {
-    background: #eeeeee;
+    background-image: linear-gradient(to right, #c54172, #542b5c);
+    color: #E9D5EC;
     border-radius: 25px;
     border: none;
     height: 40px;
-
-    box-shadow: inset -30px -30px 50px rgba(255, 255, 255, 0.6), inset -1px -5px 5px #ac2a5abd;
-
-    grid-column: 1/3;
-
-    /* grid-row: 4;
-    grid-column: 1; */
+    width: 90px;
 
 }
+
+ .submit:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }

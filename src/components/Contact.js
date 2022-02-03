@@ -3,8 +3,8 @@ function Contact(){
     /*html here */
         <main>
             <div>
-                <h2 class="contact">Contact Me</h2>
                 <form id="form">   
+                <h2 class="contact">Contact Me</h2>
 
                     <div>
 						<label>Name</label>
