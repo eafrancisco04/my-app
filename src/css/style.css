@@ -146,6 +146,9 @@ input, textarea {
     box-shadow: inset -1px -3px 10px rgba(165, 30, 79, 0.466);
 
 }
+textarea {
+    height: 3em;
+}
 
 .submit {
     background-image: linear-gradient(to right, #c54172, #542b5c);
