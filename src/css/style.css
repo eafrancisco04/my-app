@@ -140,3 +140,13 @@ input, textarea {
    color: #fff;
    text-decoration: none;
  }
+
+
+ footer {
+    display: flex;
+    align-self:flex-end;
+    min-width: 100vw;
+    margin: auto;
+    background-color: #E9D5EC;
+    padding: .5rem;
+ }
